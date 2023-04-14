@@ -96,7 +96,11 @@ nav{
     align-items: center;
     justify-content: space-between;
     z-index: 9999;
-  }
+}
+
+.nombre-logo{
+    font-weight: bold;
+}
 
 #navbarSupportedContent{
     margin-left: 45%;
@@ -132,7 +136,7 @@ nav{
 }
 
 .btn-relative{
-    margin-left: -16%;
+    margin-left: -2%;
     position: relative;
     left: 1590px;
 }
@@ -407,7 +411,7 @@ p{
 }
 
 .contact{
-    
+    color: white;
     max-width: 600px;
     margin: auto;
     padding: 0 2% 0 2%;
@@ -697,6 +701,7 @@ footer{
     .msg{
         padding-top: 5%;
         font-size: 20px;
+        margin-bottom: 15%;
     }
 
     /*Contacto*/
@@ -729,12 +734,21 @@ footer{
 
 
 
-
+header{
+    min-height: 10vh;
+}
+main{
+    min-height: 80vh;
+}
+footer{
+    min-height: 10vh;
+}
 
 
 
   footer{
-    position: relative;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
@@ -742,6 +756,10 @@ footer{
   .icon {
     align-items: center;
     color: white;
+  }
+
+  .titulo{
+    text-decoration: none;
   }
 
   li:hover .icon i {
