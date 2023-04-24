@@ -602,7 +602,7 @@ button[type="submit"]:hover {
     z-index: 9999;
     padding-left: 3%;
     padding-bottom: 0%;
-    height: 9vh;
+    height: 12vh;
   }
 
   .icon {
@@ -733,6 +733,44 @@ button[type="submit"]:hover {
     background-image: linear-gradient(to right, #FFA9C6, #F434E2);
   }
 
+  @media (max-width: 768px) {
+    .medida-1{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between !important;
+    }
+    .medida-2{
+       width: 100% !important;
+       height: auto;
+    }
+    .medida-3{
+       clip-path: none !important;
+       height: auto;
+       object-fit: cover;
+    }
+   
+   }
+   
+   @media (max-width: 360px){
+       footer{
+           padding: 0;
+       }
+       footer ul{
+        display: flex;
+        gap: 10px;
+        padding-left: 2%;
+        padding-top: 0.4em;
+      }
+       .carousel-control-prev{
+           padding-left: 0% !important;
+           width: 16% !important;
+       }
+       .parrafo{
+        padding: 0;
+        font-size: 20px;
+       }
+   }
 
 
 
