@@ -1,0 +1,61 @@
+/* Estilos del Equipamiento */
+.fondo-equipo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url("../imagenes/fondo-equip.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(0.25em);
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    .main-equipo{
+        .parrafo{
+            font-size: 24px;
+            text-align: center;
+            width: 100%;
+            padding: 2em 4em 1em 4em;
+            color: white;
+            text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
+            font-family:'Merriweather', serif;
+            padding-bottom: 4%;
+            .texto-negrita-subrayado{
+                text-decoration: underline;
+            }
+        }
+        .h3-equipo{
+            font-size: 30px;
+            color: white;
+            text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
+            font-family:'Merriweather', serif;
+            text-align: center;
+            background-color: #01091f8b;
+            padding: 1%;
+        }
+        .div-equipo{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 3%;
+            div{
+                .info-equipo{
+                    color: white;
+                    letter-spacing: 1px;
+                    text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
+                    font-family:'Merriweather', serif;
+                }
+            }
+        }
+    }
+}
+
+.font-size{
+        font-size: 20px;
+        text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
+    }
+
+@media (max-width: 360px){
+        .parrafo{
+         padding: 0;
+         font-size: 20px;
+        }
+}

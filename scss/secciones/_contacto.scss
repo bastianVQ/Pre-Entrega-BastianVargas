@@ -1,0 +1,69 @@
+/* Estilos Contacto */
+.fondo-contacto{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../imagenes/fondo-contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    .main-contacto{
+        .div-main{
+            .contact-h2{
+                font-size: 40px;
+                text-align: center;
+                margin: 5%;
+                font-family:'Merriweather', serif;
+                text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
+                color: white;
+                div{
+                    .contact{
+                        color: white;
+                        max-width: 600px;
+                        margin: auto;
+                        padding: 0 4% 0 4%;
+                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                        font-family:'Merriweather', serif;
+                        label {
+                            display: block;
+                            margin-bottom: 10px;
+                          }
+                        input, textarea {
+                            width: 100%;
+                            padding: 10px;
+                            margin-bottom: 20px;
+                            border: none;
+                            border-radius: 5px;
+                            background-color: #f2f2f2;
+                            font-size: 16px;
+                          }
+                        textarea {
+                            height: 150px;
+                          }
+                        button[type="submit"] {
+                            background-color: #50b453;
+                            color: white;
+                            padding: 12px 20px;
+                            border: none;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            font-size: 16px;
+                            text-transform: uppercase;
+                            font-family:'Merriweather', serif;
+                            &:hover {
+                                background-color: #347b36;
+                              }
+                          }
+                    }
+                }
+            }
+        }
+        .msg{
+            text-align: center;
+            font-size: 24px;
+            color: white;
+            padding: 2% 5% 5% 5%;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-family:'Merriweather', serif;
+        }
+    }
+}

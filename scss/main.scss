@@ -1,0 +1,25 @@
+/*Estilo de Fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+/*Iconos Bootstrap*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+/*Reseteo*/
+@import "./utilidades/reseteo";
+
+/*Etilo Header*/
+@import "./secciones/header";
+/*Estilo Secciones*/
+@import "./secciones/index";
+@import "./secciones/equipamiento";
+@import "./secciones/donde-ir";
+@import "./secciones/quienes-somos";
+@import "./secciones/contacto";
+/*Estilo Footer*/
+@import "./secciones/footer";
+
+/*estilos Generales*/
+.centrado{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
