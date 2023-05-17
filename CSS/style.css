@@ -352,38 +352,38 @@ body {
     font-family: 'Merriweather', serif;
     text-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.5);
     color: white; }
-    .fondo-contacto .main-contacto .div-main .contact-h2 div .contact {
-      color: white;
-      max-width: 600px;
-      margin: auto;
-      padding: 0 4% 0 4%;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      font-family: 'Merriweather', serif; }
-      .fondo-contacto .main-contacto .div-main .contact-h2 div .contact label {
-        display: block;
-        margin-bottom: 10px; }
-      .fondo-contacto .main-contacto .div-main .contact-h2 div .contact input, .fondo-contacto .main-contacto .div-main .contact-h2 div .contact textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 20px;
-        border: none;
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        font-size: 16px; }
-      .fondo-contacto .main-contacto .div-main .contact-h2 div .contact textarea {
-        height: 150px; }
-      .fondo-contacto .main-contacto .div-main .contact-h2 div .contact button[type="submit"] {
-        background-color: #50b453;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-        text-transform: uppercase;
-        font-family: 'Merriweather', serif; }
-        .fondo-contacto .main-contacto .div-main .contact-h2 div .contact button[type="submit"]:hover {
-          background-color: #347b36; }
+  .fondo-contacto .main-contacto .div-main div .contact {
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 4% 0 4%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Merriweather', serif; }
+  .fondo-contacto .main-contacto .div-main div form label {
+    display: block;
+    margin-bottom: 10px; }
+  .fondo-contacto .main-contacto .div-main div form input, .fondo-contacto .main-contacto .div-main div form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 16px; }
+  .fondo-contacto .main-contacto .div-main div form textarea {
+    height: 150px; }
+  .fondo-contacto .main-contacto .div-main div form button[type="submit"] {
+    background-color: #50b453;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif; }
+    .fondo-contacto .main-contacto .div-main div form button[type="submit"]:hover {
+      background-color: #347b36; }
   .fondo-contacto .main-contacto .msg {
     text-align: center;
     font-size: 24px;
